@@ -1,0 +1,38 @@
+.class{
+    font-size: 65px;
+    color: orange;
+}
+
+.background-list{
+    background-color: palegreen;
+}
+
+body{
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+
+h1{
+    font-family: sans-serif;
+    text-decoration:underline;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#cor-list-amarelo{
+    background-color: yellow;
+}
+
+#cor-list-vermelho{
+    background-color: red;
+}
+
+#cor-list-marrom{
+    background-color: brown;
+}
