@@ -213,6 +213,5 @@
             } else {
                 numbersMult.push(numbers[i] * 2);
             }
-         
         }
         console.log (numbersMult);
