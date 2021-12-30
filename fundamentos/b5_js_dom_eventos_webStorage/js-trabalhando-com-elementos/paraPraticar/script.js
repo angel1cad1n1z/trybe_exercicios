@@ -57,3 +57,23 @@ console.log (document.getElementById("pai").lastElementChild.previousElementSibl
 
 console.log (document.getElementById("filhoPrimeiroFilhoDoFilho").parentNode.parentNode.parentNode.lastElementChild.previousElementSibling.previousElementSibling);
 
+// Para praticar - Parte III
+// Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+
+
+let sections = document.getElementsByTagName("section")
+console.log (sections)
+
+//sections[0].removeChild(sections[8])
+
+
+for (let chave of sections) {
+
+    if (chave.id === "primeiroFilho" || chave.id === "terceiroFilho" || chave.id === "quartoEUltimoFilho" || chave.id === "irmaoELementoOndeVoceEsta" || chave.id === "segundoEUltimoFilhoDoFilho" || chave.id === "filhoELementoOndeVoceEsta") {
+        chave.remove()
+     }
+    
+}
+
+console.log(sections)
+ // imprime com erro em filhoElementoOndeVoceEsta* e quartoEUltimoFilho*
